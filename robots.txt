@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://splendorous-entremet-5f15ac.netlify.app/sitemap.xml
