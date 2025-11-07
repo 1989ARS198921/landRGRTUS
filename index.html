@@ -26,42 +26,8 @@
     }
     </script>
 
-    <style>
-        /* Ваши существующие стили остаются без изменений */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --primary: #4361ee;
-            --primary-dark: #3a56d4;
-            --secondary: #7209b7;
-            --accent: #f72585;
-            --text: #2b2d42;
-            --text-light: #8d99ae;
-            --background: #f8f9fa;
-            --card-bg: #ffffff;
-            --shadow: 0 10px 30px rgba(0,0,0,0.1);
-            --radius: 20px;
-            --transition: all 0.3s ease;
-        }
-
-        body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
-            color: var(--text);
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* ... остальные ваши стили ... */
-    </style>
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -73,7 +39,7 @@
                 <p>Решение задач, курсовые, дипломы. Качественно и в срок</p>
             </div>
 
-            <!-- Основной контент лендинга остается без изменений -->
+            <!-- Main Content -->
             <div class="content">
                 <!-- Services -->
                 <div class="section">
@@ -154,7 +120,8 @@
             <div class="cta-section">
                 <h3 class="cta-title">Нужна помощь с учёбой?</h3>
                 <p class="cta-description">Напишите прямо сейчас в Telegram. Укажите, что вы из РГРТУ</p>
-                <a href="https://t.me/ваш_telegram_username" class="telegram-button" target="_blank">
+                <!-- ЗАМЕНИТЕ username на ваш настоящий -->
+                <a href="https://t.me/Transf111_bot" class="telegram-button" target="_blank">
                     <span class="button-icon">✈️</span>
                     Написать в Telegram
                 </a>
@@ -167,9 +134,7 @@
         </div>
     </div>
 
-    <script>
-        // Set current year
-        document.getElementById('current-year').textContent = new Date().getFullYear();
-    </script>
+    <!-- Подключение скриптов -->
+    <script src="script.js"></script>
 </body>
 </html>
