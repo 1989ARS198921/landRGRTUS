@@ -1,4 +1,6 @@
 // Основные функции для лендинга
+
+
 document.addEventListener('DOMContentLoaded', function() {
     // Установка текущего года в футере
     document.getElementById('current-year').textContent = new Date().getFullYear();
